@@ -26,6 +26,11 @@ format:
 editor: 
   markdown: 
     wrap: 72
+#knitr:
+#  opts_chunk: 
+#    fig.height: 1
+#    fig.width: 2
+lang: pt
 ---
 
 ```{r Setup}
@@ -53,13 +58,13 @@ pacman::p_load(
 
 ## Entender quais os principais problemas dos CRAS na visão daqueles que os frequentam
 
-![](images/filas_cras.png){width="20cm"}
+![](images/filas_cras.png){width="20cm" height="15cm"}
 
 # Metodologia {background-color="#07202E" background-opacity="0.8"}
 
 ## Coletamos todos os 4571 comentários dos 101 CRAS no ES no G. Maps
 
-![](images/maps_ex_coments.png){width="20cm"}
+![](images/maps_ex_coments.png){width="25cm" height="14cm"}
 
 ## Analisamos os padrões dos comentários com ChatGPT
 
@@ -70,11 +75,11 @@ pacman::p_load(
 
 ## Muitos CRAS apresentam notas abaixo de 4
 
-![](C:/Users/wb633398/Documents/GitHub/Personal/cras_maps/outputs/figures/cras_score_histogram.png){width="20cm"}
+![](C:/Users/gabri/Documents/Github/cras_maps/outputs/figures/cras_score_histogram.png){width="20cm" height="15cm"}
 
 ## Esses CRAS têm comentários negativos em torno de problemas semelhantes
 
-### 1º Problema - Contato
+### 1º Problema - Contato {.unlisted}
 
 ::: incremental
 -   **Dificuldade em Contatar via Telefone:**
@@ -92,9 +97,9 @@ pacman::p_load(
         :::
 :::
 
----
+------------------------------------------------------------------------
 
-### 2º Problema - Informação
+### 2º Problema - Informação {.unlisted}
 
 ::: incremental
 -   **Falta de Informação e Resposta:**
@@ -113,9 +118,9 @@ pacman::p_load(
         :::
 :::
 
----
+------------------------------------------------------------------------
 
-### 3º Problema - Atendimento
+### 3º Problema - Atendimento {.unlisted}
 
 ::: incremental
 -   **Problemas com o Atendimento Presencial:**
@@ -136,14 +141,16 @@ pacman::p_load(
 # Proposta de Solução {background-color="#07202E" background-opacity="0.8"}
 
 ## Agendamento automático por WPP
----
+
+------------------------------------------------------------------------
+
 ## Perguntas para Andrezza
 
-    -   O problema é real? Em SP e no ES?
+-   O problema é real? Em SP e no ES?
 
-    -   Já foi tentado um sistema de agendamento e fornecimento de
-        informações automatizado?
+-   Já foi tentado um sistema de agendamento e fornecimento de
+    informações automatizado?
 
-        -   Se sim, por que não funcionou?
+    -   Se sim, por que não funcionou?
 
-        -   Se não, o que impediria de testar em 1 CRAS piloto?
+    -   Se não, o que impediria de testar em 1 CRAS piloto?
