@@ -20,6 +20,7 @@ format:
     toc-title: "Resumo"
     self-contained: true
     self-contained-math: true
+    embed-resources: true
     preview-links: false
     #logo: "logos/DIME_COLOR.png"
    # footer: "[DIME](https://www.worldbank.org/dime) theme for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html). Code available on [GitHub](https://github.com/dime-worldbank/quarto-dime-theme)."
@@ -75,7 +76,7 @@ pacman::p_load(
 
 ## Muitos CRAS apresentam notas abaixo de 4
 
-![](C:/Users/gabri/Documents/Github/cras_maps/outputs/figures/cras_score_histogram.png){width="20cm" height="15cm"}
+![](C:/Users/wb633398/Documents/Github/Personal/cras_maps/outputs/figures/cras_score_histogram.png){width="20cm" height="15cm"}
 
 ## Esses CRAS têm comentários negativos em torno de problemas semelhantes
 
