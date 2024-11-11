@@ -1,0 +1,157 @@
+---
+title: "Principais Problemas do CRAS no Espírito Santo e Possíveis Soluções"
+subtitle: "Uma análise com base em 4571 comentários feitos em 101 centros no Google Maps"
+author: "[Gabriel Caser](https://www.linkedin.com/in/gabriel-caser-39200615b/) and [Matheus Avance](https://www.linkedin.com/in/matheus-avance/)"
+#institute: Development Impact Evaluation (DIME)
+date: today
+bibliography: bib/template.bib
+format:
+  dime-revealjs:
+    # Output file
+    # Table of Contents
+    # Generate a self contained file
+    # Turn preview links within the presentation off (all links open in a new tab)
+    # Logo and footer options
+    output-file: index.html
+    toc: true
+    toc_float: true
+    toc-depth: 2
+    toc-location: body
+    toc-title: "Resumo"
+    self-contained: true
+    self-contained-math: true
+    embed-resources: true
+    preview-links: false
+    #logo: "logos/DIME_COLOR.png"
+   # footer: "[DIME](https://www.worldbank.org/dime) theme for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html). Code available on [GitHub](https://github.com/dime-worldbank/quarto-dime-theme)."
+editor: 
+  markdown: 
+    wrap: 72
+#knitr:
+#  opts_chunk: 
+#    fig.height: 1
+#    fig.width: 2
+lang: pt
+---
+
+```{r Setup}
+#| include: false
+# Add default ggplot theme. This can be overridden by your own theme at
+# the end of the ggplot graph.
+
+# DIME:
+source("_extensions/dime/setup_dime_palettes.R")
+source("_extensions/dime/setup_ggplot2_dime.R")
+# Worldbank:
+# source("_extensions/dime/setup_dime_palettes.R")
+# source("_extensions/dime/setup_ggplot2_dime.R")
+
+# Install R libraries
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(
+  dplyr, DT, ggplot2, ggpubr, ggrepel, ggtext, gt, here, huxtable, 
+  knitr, leaflet, osmdata, pacman, pagedown, palmerpenguins,
+  reactable, sf, tidyr, tidyverse
+)
+```
+
+# Motivação {background-color="#07202E" background-opacity="0.8"}
+
+## Entender quais os principais problemas dos CRAS na visão daqueles que os frequentam
+
+![](images/filas_cras.png){width="20cm" height="15cm"}
+
+# Metodologia {background-color="#07202E" background-opacity="0.8"}
+
+## Coletamos todos os 4571 comentários dos 101 CRAS no ES no G. Maps
+
+![](images/maps_ex_coments.png){width="25cm" height="14cm"}
+
+## Analisamos os padrões dos comentários com ChatGPT
+
+-   Usamos o ChatGPT 4o para identificar padrões nos comentários e
+    apontar as três principais queixas
+
+# Resultados {background-color="#07202E" background-opacity="0.8"}
+
+## Muitos CRAS apresentam notas abaixo de 4
+
+![](C:/Users/wb633398/Documents/Github/Personal/cras_maps/outputs/figures/cras_score_histogram.png){width="20cm"
+height="15cm"}
+
+## Esses CRAS têm comentários negativos em torno de problemas semelhantes
+
+### 1º Problema - Contato {.unlisted}
+
+::: incremental
+-   **Dificuldade em Contatar via Telefone:**
+
+    -   Comentários sugerem que os usuários têm dificuldade em obter
+        respostas quando tentam ligar para os CRAS.
+
+        ::: callout-note
+        ## Exemplos de comentários
+
+        -   "Ninguém atende o telefone, é impossível falar com alguém."
+
+        -   "Tentei ligar várias vezes, mas o telefone só chama e
+            ninguém atende."
+        :::
+:::
+
+------------------------------------------------------------------------ 
+
+### 2º Problema - Informação {.unlisted}
+
+::: incremental
+-   **Falta de Informação e Resposta:**
+
+    -   Os usuários frequentemente mencionam que não conseguem obter as
+        informações necessárias ou que os funcionários não estão
+        disponíveis para ajudar.
+
+        ::: callout-note
+        ## Exemplos de comentários
+
+        -   "Nunca consigo informações precisas, sempre me mandam de um
+            lugar para outro."
+
+        -   "Não há ninguém disponível para responder minhas perguntas."
+        :::
+:::
+
+------------------------------------------------------------------------ 
+
+### 3º Problema - Atendimento {.unlisted}
+
+::: incremental
+-   **Problemas com o Atendimento Presencial:**
+
+    -   Há várias queixas relacionadas à qualidade do atendimento
+        presencial, seja por falta de cortesia ou demora no atendimento.
+
+        ::: callout-note
+        ## Exemplos de comentários
+
+        -   "O atendimento foi horrível, me deixaram esperando por
+            horas."
+
+        -   "Fui muito mal atendido, a pessoa que me atendeu foi rude."
+        :::
+:::
+
+# Proposta de Solução {background-color="#07202E" background-opacity="0.8"}
+
+## Agendamento automático por WPP
+
+### Perguntas
+
+-   O problema é confirmado por profissionais de linha de frente? O que eles pensam da proposta de solução?
+
+-   Onde funciona bem um sistema de agendamento e fornecimento de
+    informações automatizado?
+
+    -   Se já foi tentado no SUAS, por que não funcionou? Ou por que não
+        foi escalado de forma nacional?
+
+    -   O que impediria de testar em 1 CRAS piloto?
