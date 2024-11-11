@@ -1,7 +1,7 @@
 ---
 title: "Principais Problemas do CRAS no Espírito Santo e Possíveis Soluções"
 subtitle: "Uma análise com base em 4571 comentários feitos em 101 centros no Google Maps"
-author: "Gabriel Caser e Matheus Avance"
+author: "[Gabriel Caser](https://www.linkedin.com/in/gabriel-caser-39200615b/) and [Matheus Avance](https://www.linkedin.com/in/matheus-avance/)"
 #institute: Development Impact Evaluation (DIME)
 date: today
 bibliography: bib/template.bib
@@ -12,7 +12,7 @@ format:
     # Generate a self contained file
     # Turn preview links within the presentation off (all links open in a new tab)
     # Logo and footer options
-    output-file: index.html
+    output-file: apresentacao_cras.html
     toc: true
     toc_float: true
     toc-depth: 2
@@ -76,7 +76,8 @@ pacman::p_load(
 
 ## Muitos CRAS apresentam notas abaixo de 4
 
-![](C:/Users/wb633398/Documents/Github/Personal/cras_maps/outputs/figures/cras_score_histogram.png){width="20cm" height="15cm"}
+![](C:/Users/wb633398/Documents/Github/Personal/cras_maps/outputs/figures/cras_score_histogram.png){width="20cm"
+height="15cm"}
 
 ## Esses CRAS têm comentários negativos em torno de problemas semelhantes
 
@@ -98,7 +99,7 @@ pacman::p_load(
         :::
 :::
 
-------------------------------------------------------------------------
+------------------------------------------------------------------------ {.unnumbered .unlisted}
 
 ### 2º Problema - Informação {.unlisted}
 
@@ -119,7 +120,7 @@ pacman::p_load(
         :::
 :::
 
-------------------------------------------------------------------------
+------------------------------------------------------------------------ {.unnumbered .unlisted}
 
 ### 3º Problema - Atendimento {.unlisted}
 
@@ -143,15 +144,14 @@ pacman::p_load(
 
 ## Agendamento automático por WPP
 
-------------------------------------------------------------------------
+### Perguntas
 
-## Perguntas para Andrezza
+-   O problema é confirmado por profissionais de linha de frente? O que eles pensam da proposta de solução?
 
--   O problema é real? Em SP e no ES?
-
--   Já foi tentado um sistema de agendamento e fornecimento de
+-   Onde funciona bem um sistema de agendamento e fornecimento de
     informações automatizado?
 
-    -   Se sim, por que não funcionou?
+    -   Se já foi tentado no SUAS, por que não funcionou? Ou por que não
+        foi escalado de forma nacional?
 
-    -   Se não, o que impediria de testar em 1 CRAS piloto?
+    -   O que impediria de testar em 1 CRAS piloto?
