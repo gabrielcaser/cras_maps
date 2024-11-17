@@ -59,9 +59,7 @@ pacman::p_load(
 
 ## Entender quais os principais problemas dos CRAS na visão daqueles que os frequentam
 
-Problema recorrente ou pontual?
-
-## ![](images/filas_cras.png){width="17.1cm" height="11.8cm"}
+## ![](images/filas_cras.png){width="20cm" height="15cm"}
 
 # Metodologia {background-color="#07202E" background-opacity="0.8"}
 
