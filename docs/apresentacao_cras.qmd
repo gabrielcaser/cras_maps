@@ -59,7 +59,9 @@ pacman::p_load(
 
 ## Entender quais os principais problemas dos CRAS na visão daqueles que os frequentam
 
-![](images/filas_cras.png){width="20cm" height="15cm"}
+Problema recorrente ou pontual?
+
+## ![](images/filas_cras.png){width="17.1cm" height="11.8cm"}
 
 # Metodologia {background-color="#07202E" background-opacity="0.8"}
 
@@ -81,7 +83,7 @@ height="15cm"}
 
 ## Esses CRAS têm comentários negativos em torno de problemas semelhantes
 
-### 1º Problema - Contato {.unlisted}
+## 1º Problema - Contato {.unlisted}
 
 ::: incremental
 -   **Dificuldade em Contatar via Telefone:**
@@ -99,9 +101,7 @@ height="15cm"}
         :::
 :::
 
------------------------------------------------------------------------- 
-
-### 2º Problema - Informação {.unlisted}
+## 2º Problema - Informação {.unlisted}
 
 ::: incremental
 -   **Falta de Informação e Resposta:**
@@ -120,9 +120,7 @@ height="15cm"}
         :::
 :::
 
------------------------------------------------------------------------- 
-
-### 3º Problema - Atendimento {.unlisted}
+## 3º Problema - Atendimento {.unlisted}
 
 ::: incremental
 -   **Problemas com o Atendimento Presencial:**
@@ -144,14 +142,21 @@ height="15cm"}
 
 ## Agendamento automático por WPP
 
-### Perguntas
+-   Algumas cidades aparentam ter sites de agendamentos automatizados,
+    porém, com problemas e críticas
 
--   O problema é confirmado por profissionais de linha de frente? O que eles pensam da proposta de solução?
+    ![](images/clipboard-2746686753.png){width="349"}![](images/clipboard-1369936893.png){width="381"}
 
--   Onde funciona bem um sistema de agendamento e fornecimento de
-    informações automatizado?
+    ## Caso de Recife
 
-    -   Se já foi tentado no SUAS, por que não funcionou? Ou por que não
-        foi escalado de forma nacional?
+## Perguntas Laura
 
-    -   O que impediria de testar em 1 CRAS piloto?
+-   Em sua opinião, quão grande, negigenciado e fácil de resolver é o
+    problema de agendamento de atendimentos remoto nos CRAS?
+
+-   Existe algum lugar em que funciona bem um sistema de agendamento?
+
+-   Se já foi tentado no SUAS, por que não funcionou? Ou por que não foi
+    escalado de forma nacional?
+
+-   O que seria necessário para testar em 1 CRAS piloto?
